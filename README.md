@@ -4,7 +4,7 @@ The `docker-compose up` command aggregates the output of each container. When th
 
 USAGE: `[project repository]> docker-compose up`
 
-Beside that Running `**docker-compose up -d**` starts the containers in the background and leaves them running.
+Beside that, running `**docker-compose up -d**` starts the containers in the background and leaves them running.
 
 USAGE: `[project repository]> docker-compose up -d`
 

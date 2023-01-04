@@ -1,4 +1,4 @@
-# docker commands
+# Docker Commands
 
 ## docker-compose up
 

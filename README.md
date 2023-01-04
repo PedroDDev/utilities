@@ -4,11 +4,11 @@
 
 The `docker-compose up` command aggregates the output of each container. When the command exits, all containers are stopped.
 
-USAGE: `[project repository]> docker-compose up`
+USAGE: `[docker compose file repository]> docker-compose up`
 
 Beside that, running `**docker-compose up -d**` starts the containers in the background and leaves them running.
 
-USAGE: `[project repository]> docker-compose up -d`
+USAGE: `[docker compose file repository]> docker-compose up -d`
 
 
 ## docker-compose down
@@ -23,7 +23,7 @@ By default, the only things removed are:
 
 Networks and volumes defined as `external` are never removed.
 
-USAGE: `[project repository]> docker-compose down`
+USAGE: `[docker compose file repository]> docker-compose down`
 
 
 ## docker system prune -f -a --volumes

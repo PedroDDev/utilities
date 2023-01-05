@@ -31,3 +31,23 @@ USAGE: `[docker compose file repository]> docker-compose down`
 The `docker system prune -f -a --volumes` command removes all docker containers, images and volumes. Start from scratch.
 
 USAGE: `docker system prune -f -a --volumes`
+
+
+# Git Commands
+
+## git clone
+
+If you want to get a copy of an existing Git repository — for example, a project you’d like to contribute to — the command you need is `git clone`.
+
+USAGE: `[directory where want to save]
+       $ git clone <url of the repository in github>`
+       
+## git branch -d
+
+To delete a git branch locally, use `git branch -d`.
+
+The `-d` option will delete the branch only if it has already been pushed and merged with the remote branch. Use `-D` instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.
+
+USAGE: `$ git branch -d <branch name>`
+
+

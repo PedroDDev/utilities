@@ -39,7 +39,7 @@ USAGE: `docker system prune -f -a --volumes`
 
 If you want to get a copy of an existing Git repository — for example, a project you’d like to contribute to — the command you need is `git clone`.
 
-USAGE: `[directory where want to save]
+USAGE: `[directory where you want to save]
        $ git clone <url of the repository in github>`
        
 ## git branch -d

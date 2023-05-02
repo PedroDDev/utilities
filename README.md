@@ -50,4 +50,20 @@ The `-d` option will delete the branch only if it has already been pushed and me
 
 USAGE: `$ git branch -d <branch name>`
 
+## git config --global user.name
+
+To configure your git username on your machine, use `git config --global user.name`.
+
+The `--global` option will set crendentials to all repositories in your machine.
+
+USAGE: `$ git config --global user.name "your username"`
+
+## git config --global user.email
+
+To configure your git user email on your machine, use `git config --global user.email`.
+
+The `--global` option will set crendentials to all repositories in your machine.
+
+USAGE: `$ git config --global user.email your@email.com`
+
 

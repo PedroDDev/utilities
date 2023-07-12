@@ -150,7 +150,7 @@ In addition, in the case of scope, it is possible to add multiple values, for ex
 
 **Note:** Scopes must be separated with / , \ or ,.
 
-***Font:** https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657*
+***Reference:** https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657*
 
 
 

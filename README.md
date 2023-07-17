@@ -1,5 +1,7 @@
 # Docker
 
+Docker is a set of platform-as-a-service products that use operating system-level virtualization to deliver software in packages called containers. Containers are isolated from each other and bundle their own software, libraries, and configuration files.
+
 ## Docker Commands
 
 ### docker-compose up
@@ -33,6 +35,8 @@ The `docker system prune -f -a --volumes` command removes all docker containers,
     docker system prune -f -a --volumes
 
 # Git
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 ## Git Commands
 

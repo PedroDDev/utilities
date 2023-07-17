@@ -156,6 +156,69 @@ In addition, in the case of scope, it is possible to add multiple values, for ex
 
 ***Reference:** https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657*
 
+# .NET
+
+.NET is a free and open source framework for Windows, Linux and macOS systems. It is an open source successor to the .NET Framework. The project is primarily developed by Microsoft and released under the MIT License.
+
+## .NET Commands
+
+### dotnet new 
+
+When you run the `dotnet new` command in the Command Prompt or Terminal, you can create different types of projects based on the templates provided by the `.NET CLI`. 
+
+    dotnet new <template>
+
+Here are some of the project templates that you can create using the `dotnet new` command:
+
++ `Console Application`: This template creates a .NET console application that can be used to build command-line tools or utilities.
+
+        dotnet new console
+  
++ `ASP.NET Core Web Application`: This template creates a web application using ASP.NET Core, which is a cross-platform framework for building web applications.
+
+        dotnet new web
+
++ `Web API`: This template creates a web API project using ASP.NET Core, which can be used to create RESTful services.
+
+        dotnet new webapi
+
++ `MVC Web Application`: This template creates an ASP.NET Core web application that uses the Model-View-Controller (MVC) pattern.
+
+        dotnet new mvc
+
++ `Angular`: This template creates an ASP.NET Core web application that uses Angular, a popular front-end framework for building web applications.
+
+        dotnet new angular
+
++ `React`: This template creates an ASP.NET Core web application that uses React, a popular front-end library for building web applications.
+
+        dotnet new react
+
+Optionally you can use the `-o` option to create the project inside a directory.
+
+        dotnet new webapi -o <directory name>
+
+These are just a few examples of the project templates that you can create using the `dotnet new` command. There are many more templates available that you can explore by running the command with the `--list` option.
+
+        dotnet new --list
+
+### dotnet add package
+
+The `dotnet add package` command provides a convenient option to **add** or **update** a package reference in a project file. When you run the command, there's a compatibility check to ensure the package is compatible with the frameworks in the project. If the check passes and the package isn't referenced in the project file, a `<PackageReference>` element is **added** to the project file. If the check passes and the package is already referenced in the project file, the `<PackageReference>` element is **updated** to the latest compatible version. After the project file is updated, [dotnet restore](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-restore) is run.
+
+        dotnet add package <package reference>
+
+Optionally you can use the `-v` option to install a specific version of the package.
+
+        dotnet add package <package reference> -v <package version>
+
+### dotnet watch run
+
+The `dotnet watch` command is a file watcher. When it detects a change, it runs the `dotnet run` command or a specified `dotnet` command. If it runs `dotnet run`, and the change is supported for [hot reload](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-watch#hot-reload), it hot reloads the specified application. If the change isn't supported, it restarts the application. This process enables fast iterative development from the command line.
+
+        dotnet watch 
+        OR
+        dotnet watch run
 
 
 

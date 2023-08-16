@@ -220,6 +220,17 @@ The `dotnet watch` command is a file watcher. When it detects a change, it runs 
         OR
         dotnet watch run
 
+# SQL
 
+## SQL SERVER
 
+### FORMAT
+
+Use the `FORMAT` function (supported starting from the SQL Server 2012 version.), if you need to fill a value with leading zeros.
+
+        SELECT FORMAT(value, '0000') FROM table
+
+If your value is in `varchar` format and represents a numerical value, then you should convert it first.
+
+        SELECT FORMAT(CONVERT(INT, value), '0000') FROM table
 

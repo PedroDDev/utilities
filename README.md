@@ -222,7 +222,7 @@ The `dotnet watch` command is a file watcher. When it detects a change, it runs 
 
 # SQL
 
-## SQL SERVER
+## SQL Server
 
 ### FORMAT
 
